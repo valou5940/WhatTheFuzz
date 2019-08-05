@@ -31,6 +31,7 @@ export default {
   text-align: center;
   color: #2c3e50;
   max-width: 1900px;
-  background-color: white;
+  /* background-color: rgba(247, 240, 240, 0.815); */
+  background-color: rgba(236, 227, 227, 0.288);
 }
 </style>

@@ -1,7 +1,9 @@
 <template>
   <div class="row main-header">
     <div class="col-12">
-      <h1>Titre provisoire</h1>
+      <h1>
+        <b>What The Fuzz</b>
+      </h1>
       <div class="main-menu">
         <Navbar @sortByArtist="sortByArtist()" />
       </div>
@@ -21,10 +23,11 @@ export default {
 <style scoped>
 .main-header {
   min-height: 200px;
+  margin-top: 25px;
 }
 
 .main-menu {
-  margin-top: 50px;
+  margin-top: 25px;
 }
 
 .tabs {

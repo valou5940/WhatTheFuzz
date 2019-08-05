@@ -21,7 +21,7 @@ class Api {
 
     // get chronic details
     app.get('/api/chronics/:id', (req, res) => {
-      ChronicsControllers.fetchChronicsById(req.params.id)
+      ChronicsControllers.fetchChronicById(req.params.id)
         .then(chronic => {
           res.send(chronic);
         })
